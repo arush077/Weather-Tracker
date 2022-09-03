@@ -1,0 +1,338 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+
+
+
+
+.c1{
+    display: grid;
+    grid-template-rows: 200px 500px  
+}
+
+
+.box1{
+    background-image: url(b1.jpg);
+    background-repeat: none;
+    background-size: cover;
+    background-color: #FFB600;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 40px;
+    margin-top: -15px;
+    position: relative;
+    width: 100vw;
+    border-bottom: 2px solid black;
+    
+}
+
+.box1 h1{
+    margin-bottom: 56px;
+    
+}
+
+.navbar ul li a{
+    
+    font-size: 27px;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.box2{
+    
+    font-family: 'Bebas Neue', cursive;
+    background-color: #141824;
+    color: #FFB600;
+    text-align: center;
+    
+}
+
+.box1 ,.box2{
+    
+    /* border: 2px solid red; */
+    /* height: 50px; */
+}
+
+
+
+
+.wtbody{
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-image: url(b3.jpg);
+    /* border: 1px solid red; */
+}
+
+.hbody{
+    background-size: cover;
+    background-repeat: none;
+    background-attachment: fixed;
+    background-image: url(undercon.jpg);
+    /* border: 1px solid red; */
+}
+
+.hbox2{
+    background-size: cover;
+        background-repeat: none;
+        /* background-attachment: fixed; */
+        background-image: url(undercon.jpg);
+        /* border: 1px solid red; */
+        height: 900px;
+        margin-top: -238px;
+    }
+
+
+
+.aboutbody {
+    background-color: #141824;
+}
+
+
+.navbar{
+    width: 100vw;
+    height: 50px;
+    
+    margin-top: 83px;
+    display: inline;
+}
+
+
+
+
+
+.navbar ul li {
+    font-size: 0.4rem;
+    color: white;
+    list-style: none;
+    float: left;
+    margin-right: rem;
+
+}
+
+.logo{
+    position: absolute;
+        width: 2.81rem;
+        height: 2.81rem;
+        border-radius: 77px;
+        margin-left: 6rem;
+        right: 1.8rem;
+        border: 1px solid white;
+        margin-top: 5px;
+        
+
+
+}
+
+.logoopener{
+width: 150px;
+    height: 251px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    
+    display: none;
+    margin-top: 45px;
+    color: white;
+    border-left: 5px solid white;
+    border-bottom: 4px solid white;
+    border-radius: 21px;
+    border-top: 2px solid white;
+    animation: logoopener 0.5s linear;
+}
+
+.logoopener nav ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 15px;
+    font-family: 'Bebas Neue', cursive;
+    /* position: absolute; */
+    top: 20px;
+    left: 30px;
+    margin: 40px;
+    margin-left: 35px;
+        
+}
+
+.logoopener nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+    
+
+
+@keyframes logoopener{
+    0%{
+       height: 0px;
+    }
+
+    50%{
+        height: 125px;
+    }
+
+    100%{ 
+       height: 251px;
+    }
+
+}
+
+.dlogo:hover .logoopener{
+    display: block;
+       
+}
+
+
+.weather{
+    color: white;
+    height: 10px;
+}
+
+
+.qn{
+    width: 200px;
+    margin: auto;
+}
+
+.submit {
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    
+
+}
+
+.qn input{
+    background-color: #FFB600;
+}
+
+
+
+.ans{
+    margin:60px auto;
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    color: azure;
+    background-color: #FFB600;
+    border: 1px solid gold;
+    border-radius: 42px;
+    font-family:'Bebas Neue',cursive; 
+    background-color: #8686ff;
+}
+
+.location div{display: inline;}
+
+
+
+
+.ftemperature ,.fcity,.fcountry{
+    text-align: center;
+}
+
+.fcity{
+    margin-left:40px;
+}
+
+.hot{
+    /* color: red; */
+    text-align: center;
+}
+
+.mod{
+    color: white;
+    text-align: center;
+}
+
+.cold{
+    color: aqua;
+    text-align: center;
+}
+
+.city{
+    font-family: 'Bebas Neue', cursive;
+    width: 159px;
+        height: 38px;
+        border-radius: 13px;
+        font-size: 20px;
+
+}
+
+
+.backgrvid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media(max-width:450px){
+    .navbar ul li a {
+            font-size: 5vw;
+            color: white;
+            list-style: none;
+            float: left;
+            margin-right: 1rem;
+    
+        }
+
+
+                .logo {
+                    position: absolute;
+                    width: 6.81vw;
+                    height: 6.81vw;
+                    border-radius: 77px;
+                    margin-left: 6rem;
+                    right: 1.8rem;
+                    border: 1px solid white;
+                    margin-top: 5px;
+        
+        
+        
+                }
+
+                                .hbody {
+                                    background-size: cover;
+                                    background-repeat: none;
+                                    background-attachment: fixed;
+                                    background-image: url(undercon.jpg);
+                                    /* border: 1px solid red; */
+                                }
+                
+                                .hbox2 {
+                                    height: 900px;
+                                        margin-top: -125px;
+                                        margin-left: -445px;
+                                        background-repeat: none;
+                                        transform: scale(0.6);
+                                        margin-right: -374px;
+                                        margin-bottom: -4px;
+                                        background-image: url(undercon.jpg);
+                                        background-size: cover;
+                                }
+
+                                .wt{
+                                    font-size: 10vw;
+                                    margin-top: 10vw;
+                                }
+
+                                                                .qn {
+                                                                    width: 200px;
+                                                                    margin: auto;
+                                                                    font-size: 5vw;
+                                                                    margin-top: 7vw;
+                                                                }
+
+                                                                .ans{
+                                                                    margin-top: 5vw;
+                                                                }
+
+
+                                                                .logoopener{
+                                                                    margin-top: 7vw;
+                                                                }
+}
